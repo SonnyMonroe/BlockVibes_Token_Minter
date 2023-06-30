@@ -7,8 +7,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .main {
@@ -24,8 +22,6 @@
 .title p {
   color: #f213a4;
   text-decoration: none;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
 }
 /* 
 .title a {

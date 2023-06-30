@@ -24,8 +24,7 @@ export default function Home() {
     <>
       <div className={styles.container}>
         <div className={styles.title}>
-          <h2>Block Vibes </h2>
-          <p>By Creators For Creators</p>
+          <h2>BlockVibes </h2>
         </div>
         <div>
           {address ? (

@@ -23,9 +23,8 @@ export default function Home() {
   return (
     <>
       <div className={styles.container}>
-        <div className={styles.title}>
-          <h2>Block Vibes </h2>
-          <p>By Creators For Creators</p>
+        <div className={styles.card}>
+          <h2>BlockVibes </h2>
         </div>
         <div>
           {address ? (
