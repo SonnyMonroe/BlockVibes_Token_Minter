@@ -21,7 +21,7 @@ export default function Home() {
   const { mutate: claimTokens, isLoading } = useClaimToken(tokenDrop);
 
   return (
-    <main>
+    <div class="main">
       <div>
         {address ? (
           <>
@@ -56,6 +56,6 @@ export default function Home() {
           <button onClick={connectWithMetamask}>Connect Metamask Wallet</button>
         )}
       </div>
-    </main>
+    </div>
   );
 }
